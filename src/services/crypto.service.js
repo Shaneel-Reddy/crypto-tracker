@@ -5,6 +5,7 @@ const ApiError = require("../utils/ApiError");
 const logger = require("../config/logger");
 const { calculateStandardDeviation } = require("../utils/statistics");
 const config = require("../config/config");
+
 class CryptoService {
   async getLatestStats(coinId) {
     const stats = await CryptoPrice.findOne(

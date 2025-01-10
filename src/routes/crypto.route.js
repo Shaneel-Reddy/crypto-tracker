@@ -1,8 +1,8 @@
 const express = require("express");
-const validate = require("../../middlewares/validate.middleware");
-const cryptoValidation = require("../../validations/crypto.validation");
-const cryptoController = require("../../controllers/crypto.controller");
-const limiter = require("../../middlewares/rateLimiter.middleware");
+const validate = require("../middlewares/validate.middleware");
+const cryptoValidation = require("../validations/crypto.validation");
+const cryptoController = require("../controllers/crypto.controller");
+const limiter = require("../middlewares/rateLimiter.middleware");
 
 const router = express.Router();
 

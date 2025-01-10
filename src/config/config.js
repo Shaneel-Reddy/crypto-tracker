@@ -5,10 +5,8 @@ module.exports = {
   port: process.env.PORT,
   mongoose: {
     url: process.env.MONGODB_URI,
-    options: {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    },
+    testUrl: process.env.MONGODB_URI_TEST,
+    options: {},
   },
   coinGecko: {
     baseUrl: "https://api.coingecko.com/api/v3",

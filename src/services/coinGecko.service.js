@@ -2,7 +2,7 @@ const axios = require("axios");
 const config = require("../config/config");
 const logger = require("../config/logger");
 const ApiError = require("../utils/ApiError");
-
+const httpStatus = require("http-status");
 class CoinGeckoService {
   constructor() {
     this.baseUrl = config.coinGecko.baseUrl;

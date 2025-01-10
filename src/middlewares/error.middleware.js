@@ -19,7 +19,7 @@ const errorHandler = (err, req, res, next) => {
     statusCode = httpStatus.INTERNAL_SERVER_ERROR;
     message = httpStatus[httpStatus.INTERNAL_SERVER_ERROR];
   }
-
+  logger.error(`Error: ${err.message} - Stack: ${err.stack}`);
   res.locals.errorMessage = err.message;
 
   const response = {
