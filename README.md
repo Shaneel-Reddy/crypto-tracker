@@ -132,11 +132,9 @@ GET /v1/crypto/stats?coin=bitcoin
 
 ```json
 {
-  "coin": "bitcoin",
-  "price": 35000,
-  "market_cap": 700000000000,
-  "24h_volume": 32000000000,
-  "change_24h": -2.3
+    "price": 95383,
+    "marketCap": 1881034122932.035,
+    "24hChange": 2.9364115942169144
 }
 ```
 
@@ -162,11 +160,7 @@ GET /v1/crypto/deviation?coin=ethereum
 
 ```json
 {
-  "coin": "ethereum",
-  "current_price": 1200,
-  "high_24h": 1250,
-  "low_24h": 1150,
-  "deviation": "8.33%"
+    "deviation": 527.05
 }
 ```
 
