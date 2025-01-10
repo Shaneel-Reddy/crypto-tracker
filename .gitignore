@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE specific files (for example, Visual Studio Code)
+.vscode/
+.idea/
+
+# npm package lock files (if you want to avoid committing this)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories (for other package managers)
+jspm_packages/
+
+# Build directory
+dist/
+build/
